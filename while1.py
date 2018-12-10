@@ -1,7 +1,8 @@
-def abc(n):
-    s = 1 
-    for i in range(1,n+1):
-        s *= i
-    return s
-    
-print(abc(3))
+try:
+    x = int(input('Enter the first number: '))
+    y = int(input('Enter the second number: '))
+    print(x / y)
+except ZeroDivisionError:
+    print('zero')
+else:
+    print('1111111111')
