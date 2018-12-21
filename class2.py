@@ -10,7 +10,8 @@ class Student(Human):
     def get_school(self):
         print(self.school)
 
-a= str(input('input your name'))
+
+a = str(input('input your name'))
 student1 = Student('长安中学', a, 16)
 student1.get_age()
 student1.get_name()
